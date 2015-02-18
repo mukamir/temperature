@@ -140,10 +140,10 @@ December has a High of 32and Low of -20
     {
          //Output Console
         inputTempForYear();
-       System.out.println("The average high is " + calculateAverageHigh());
-       System.out.println("The average low is " + calculateAverageLow());
-       System.out.println("The hottest month is " + MONTHS[findHighestTemp()]);
-       System.out.println("The coldest month is " + MONTHS[findLowestTemp()]);
+       System.out.println("The average maximum temperature is " + calculateAverageHigh());
+       System.out.println("The average minimum temperature is " + calculateAverageLow());
+       System.out.println("The highest temperature was in  " + MONTHS[findHighestTemp()]);
+       System.out.println("The lowest temperature was in " + MONTHS[findLowestTemp()]);
 		
     }
      
